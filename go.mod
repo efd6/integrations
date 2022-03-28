@@ -9,7 +9,7 @@ require (
 	github.com/elastic/go-windows v1.0.1 // indirect
 	github.com/elastic/package-registry v1.5.0
 	github.com/jcchavezs/porto v0.3.0 // indirect
-	github.com/magefile/mage v1.11.0
+	github.com/magefile/mage v1.13.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/stretchr/testify v1.7.0
