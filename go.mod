@@ -12,7 +12,7 @@ require (
 	github.com/magefile/mage v1.11.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/procfs v0.7.3 // indirect
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.3
 	go.elastic.co/apm/module/apmgorilla v1.14.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0
 	howett.net/plist v0.0.0-20201203080718-1454fab16a06 // indirect
