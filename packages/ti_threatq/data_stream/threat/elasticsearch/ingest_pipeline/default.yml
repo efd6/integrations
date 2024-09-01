@@ -218,6 +218,17 @@ processors:
       value: email-addr
       if: "ctx.threat?.indicator?.type != null && ctx.threat?.indicator?.type == 'Email Address'"
 
+  # Indicator type: File Name
+  - set:
+      field: threat.indicator.file.name
+      copy_from: threatq.indicator_value
+      if: "ctx.threat?.indicator?.type != null && ctx.threat?.indicator?.type == 'Filename'"
+      ignore_empty_value: true
+  - set:
+      field: threat.indicator.type
+      value: file
+      if: "ctx.threat?.indicator?.type != null && ctx.threat?.indicator?.type == 'Filename'"
+
   # Indicator type: FQDN
   - set:
       field: threat.indicator.domain
