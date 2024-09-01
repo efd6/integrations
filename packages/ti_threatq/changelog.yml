@@ -1,6 +1,9 @@
 # newer versions go on top
-- version: "1.28.2"
+- version: "1.29.0"
   changes:
+    - description: Increase default pagination batch size to 1000.
+      type: enhancement
+      link: https://github.com/elastic/integrations/pull/
     - description: Fix `threat.indicator.confidence` scaling.
       type: bugfix
       link: https://github.com/elastic/integrations/pull/
